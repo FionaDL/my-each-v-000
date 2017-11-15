@@ -9,5 +9,5 @@ def my_each(array)
 end
 
 my_each(array) do |number|
-  puts number
+   number
 end
