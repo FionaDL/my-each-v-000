@@ -7,3 +7,7 @@ def my_each
   else
     puts "No block given."
 end
+
+my_each(array) do |number|
+  puts number
+end
