@@ -3,7 +3,6 @@ def my_each
     i = 0
     while i < array.length
       yield(array)
-    end
   else
     puts "No block given."
   end
